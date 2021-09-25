@@ -1,0 +1,33 @@
+.root {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.list {
+  td {
+    padding: 8px 20px;
+    outline: thin solid;
+    transition: all 0.5s;
+    cursor: pointer;
+    &:hover {
+      background-color: bisque;
+    }
+  }
+  tr {
+    outline: thin solid;
+  }
+}
+
+.tip {
+  transition: all 0.5s;
+  padding: 4px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+}
